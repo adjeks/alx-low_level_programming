@@ -5,25 +5,31 @@
  * Return: return
  */
 
-int main(void){
+int main(void)
 
-	int num1, num2;
-	/*ASCII code for 0*/
-	num 1 = 48;
+{
+	int num_left;
+	int num_right;
 
-	while (num1 < 58)
+	for (num_left = 48; num_right <= 78; num_left++)
 	{
-	
-		putchar(num1);
-		putchar(num2);
-		num2++;
-		putchar(',');
-		putchar(' ');
+	for (num_right = num_left + 1 ; num_right <= 78; num_right++)
+	{
+
+	putchar(num_left);
+	putchar(num_right);
+
+	if ((num_left == 56) && (num_right == 78))
+	{
+	break;
 	}
-	
-	num1++;
-}
-putchar('\n');
-return (0);
+
+	putchar(',');
+	putchar(' ');
+
+	}
+	}
+	putchar('\n');
+	return (0);
 
 }

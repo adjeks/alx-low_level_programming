@@ -1,12 +1,13 @@
 #include<stdio.h>
 /**
  * main - beginning
+ * Description: Program that shows possible combo of digits
  * Return: end
  */
 
 int main(void)
 {
-	int firstnumber = o, secondnumber;
+	int firstnumber = 0, secondnumber;
 
 	while (firstnumber <= 99)
 	{
